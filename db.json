@@ -1,0 +1,148 @@
+{
+  "ads": [
+    {
+      "id": 1,
+      "address": "iran country,tehran province,azadi street,jamali valley,number 232",
+      "description": "the best place for live",
+      "phone": "09025567392",
+      "email": "ali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      }
+    },
+    {
+      "id": 2,
+      "address": "iran country,tehran province,azadi street,jamali valley,number 232",
+      "description": "the best place for live",
+      "phone": "09025567392",
+      "email": "ali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      }
+    },
+    {
+      "id": 3,
+      "address": "iran country,tehran province,azadi street,jamali valley,number 232",
+      "description": "the best place for live",
+      "phone": "09025567392",
+      "email": "ali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      }
+    },
+    {
+      "id": 4,
+      "address": "iran country,tehran province,azadi street,jamali valley,number 232",
+      "description": "the best place for live",
+      "phone": "09025567392",
+      "email": "ali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      }
+    },
+    {
+      "id": 5,
+      "address": "iran country,tehran province,azadi street,jamali valley,number 32",
+      "description": "the best place for live",
+      "phone": "09025567392",
+      "email": "ali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      }
+    },
+    {
+      "id": 6,
+      "address": "iran country,alborz province,shams street,moein valley,number 885",
+      "description": "the best place for live",
+      "phone": "09025567392",
+      "email": "ali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      }
+    },
+    {
+      "id": 7,
+      "address": "iran country,alborz province,shams street,moein valley,number 485",
+      "description": "the best place for live",
+      "phone": "09025567392",
+      "email": "ali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      }
+    },
+    {
+      "id": 8,
+      "address": "iran country,alborz province,shams street,moein valley,number 385",
+      "description": "the best place for live",
+      "phone": "09025567392",
+      "email": "ali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      }
+    },
+    {
+      "id": 9,
+      "address": "iran country,alborz province,shams street,moein valley,number 28",
+      "description": "the best place for live",
+      "phone": "09025567392",
+      "email": "ali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      }
+    },
+    {
+      "id": 10,
+      "address": "iran country,alborz province,shams street,moein valley,number 290",
+      "description": "the best place for live",
+      "phone": "09025567392",
+      "email": "ali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      }
+    },
+    {
+      "phone": "09025567392",
+      "address": "golsar ",
+      "description": "a good place",
+      "email": "vali@gmail.com",
+      "coordinate": {
+        "lat": 35.9136663,
+        "lng": 50.7713345
+      },
+      "id": 11
+    },
+    {
+      "phone": "09025567392",
+      "address": "iran mashhad haram",
+      "description": "nazdik haram",
+      "email": "vali@gmail.com",
+      "coordinate": {
+        "lat": 51.51621757592263,
+        "lng": -0.11760255958339627
+      },
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "ali@gmail.com",
+      "password": "123456"
+    },
+    {
+      "email": "vali@gmail.com",
+      "password": "$2a$10$d/.xoYKjeNqIuzwiN879KugQsjthBQWDiaGmAS2kfFtdI4iTvy3Ve",
+      "id": 2
+    }
+  ]
+}

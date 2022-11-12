@@ -1,0 +1,66 @@
+.CreateAdsContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.CreateAdsContainer .CreateAdsLeft{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../assets/images/banner3.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.CreateAdsContainer .CreateAdsLeft .createAdsForm{
+  width: 500px;
+  padding: 20px;
+}
+.CreateAdsContainer .CreateAdsLeft .createAdsForm .createAdBtn{
+    border: none;
+    outline: none;
+    background-color: rgb(61, 179, 95);
+    color: #fff;
+    min-width: 120px;
+    height: 50px;
+    cursor:pointer;
+}
+.createAdsForm input,.createAdsForm textarea{
+    outline:none;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    padding:15px 10px;
+    border-radius: 5px;
+
+}
+.createAdsForm input{
+}
+.createAdsForm textarea{
+    resize: none;
+    
+}
+
+.CreateAdsContainer .CreateAdsRight{
+width: 50%;
+height: 100%;
+}
+
+
+@media only screen and (max-width:767px){
+    .CreateAdsContainer{
+        flex-direction: column-reverse;
+    }
+    .CreateAdsContainer .CreateAdsLeft{
+        width: 100%;
+        height: 60%;
+
+    }
+    .CreateAdsContainer .CreateAdsRight{
+        width: 100%;
+        height: 40%;
+    }
+}

@@ -1,0 +1,136 @@
+.detailsContainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.detailsContainer .left{
+    width: 50%;
+    height: 100%;
+    padding:  10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detailsContainer .left .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.detailsContainer .left p{
+    font-size: 1.2rem;
+    border-bottom: 1px solid #c0bcbc;
+    padding: 20px 15px;
+}
+
+.detailsContainer .left .desc{
+    font-size: 1rem !important;
+    border-top: 1px solid #c0bcbc;
+}
+.detailsContainer .left p span{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.top figure{
+    width: auto;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.top figure img{
+width: 100%;
+height: 100%;
+}
+.top h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.detailsContainer .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    position: relative;
+}
+.detailsContainer .right .mapContainer{
+width: 100%;
+height: 70%;
+background-color: #fff;
+}
+
+.Btns{
+   margin-top: 20px;
+}
+.Btns button{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(180, 30, 30);
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 150px;
+}
+/*dark mode*/
+.detailsContainer.dark{
+    background-color:#151d2a ;
+    color: #fff;
+}
+.detailsContainer.dark .right {
+    background-color:#151d2a ;
+
+}
+
+/*responsive*/
+@media  only screen and (max-width: 767px) {
+    .detailsContainer{
+        flex-direction: column;
+
+    }
+    .detailsContainer .left,.detailsContainer .right{
+        width: 100%;
+        padding-bottom:100px ;
+
+    }
+    .detailsContainer .right .mapContainer{
+        height: 100vh;
+        margin-top: 50px;
+       
+      
+    }
+    .top h2{
+        font-size: 1.5rem;
+    }
+    .detailsContainer .left p span{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (max-width:570px){
+
+    .top figure{
+        height: 150px;
+    }
+
+    .Btns button{
+        width: 100px;
+        padding: 7px;
+        font-size: 0.8rem;
+    }
+    .top h2{
+        font-size: 1.2rem;
+    }
+    .detailsContainer .left p{
+        font-size: 0.9rem;
+    }
+    .detailsContainer .left p span{
+        font-size: 0.9rem;
+    }
+}

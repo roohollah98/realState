@@ -1,0 +1,122 @@
+.header{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D74E09;
+    box-shadow: 0 5px 10px 0 #444;
+}
+.header.dark{
+    background: #151d2a;
+}
+.header .logoContainer{
+    height: 100%;
+    width: 50px;
+    padding: 10px;
+}
+.header .logoContainer img{
+    width: 100%;
+    height: 100%;
+}
+.headerMenu a{
+    margin-right: 10px;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    font-size: var( --normal-font-size);
+}
+.headerMenu a:hover{
+    transition: 0.5s ease-in-out;
+    color: #991045;
+}
+.header nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.changeThemeBtns{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7px;
+    width: 66px;
+    height: 28px;
+    cursor: pointer;
+    margin-right: 1.3rem;
+    border-radius: 50px;
+    background: linear-gradient(145deg,#898989,#151d2a);
+
+}
+.changeThemeBtns .sun{
+color: #f8ab04;
+font-size: 1.1rem;
+
+}
+.changeThemeBtns svg{
+    color: #fff;
+z-index: 5;
+   
+
+}
+.changeThemeBtns .moon{
+    font-size: 1.1rem;
+}
+.navMenu .bars{
+    font-size: 1.4rem;
+    color: #fff;
+    display: none;
+}
+.headerMenu .addBtn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.changeThemeBtns .ball{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 3px;
+    top: 1px;
+    background: #fafafa;
+    border-radius: 50%;
+    transition: 0.3s ease-out;
+
+}
+.dark .changeThemeBtns{
+    background: #fafafa;
+}
+.dark .changeThemeBtns .ball{
+    right:4px ;
+    left: initial;
+    background: #151d2a;
+    transition: 0.3s  ease-out;
+
+}
+.dark .changeThemeBtns .moon{
+   color: #f8ab04;
+}
+.dark .changeThemeBtns .sun{
+    color: #151d2a;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #D74E09;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer.dark{
+    background-color: #151d2a;
+    border-top: 1px solid #fff;
+
+}

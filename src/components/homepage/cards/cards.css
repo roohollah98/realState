@@ -1,0 +1,111 @@
+
+.cardSection{
+    padding: 8rem 0;
+    text-align: center;
+    
+}
+.cardSection h2{
+    margin-bottom: 0.25rem;
+    color:#27292a;
+}
+
+
+.cardSection span{
+    color:#9ca0a3;
+}
+.CardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #f2f2f3;
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+flex-direction: column;
+height: 300px;
+padding: 3.5rem 1rem;
+position: relative;
+text-align: center;
+width: 228px;
+margin:10px ;
+box-shadow: 0 0 6px 4px #ccc;
+cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: rgb(201, 74, 28);
+    color: #fff ;
+}
+.card:hover>.CardTitle{
+    color: #fff;
+}
+.CardTitle{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: 1.5rem;
+  
+  }
+
+  .inputWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .inputContainer{
+    width: 400px;
+    height: 80px;
+    background: #eaeef0;
+    box-shadow: -8px -8px 15px #fff,8px 8px 25px rgba(0,0,0,0.15);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+    }
+    .inputContainer input{
+        outline: none;
+        width: 100%;
+        height: 100%;
+        border: 6px solid #eaeef0;
+        box-shadow: -8px -8px 25px rgba(0,0,0,0.1),8px 8px 25px rgba(0,0,0,0.25),
+        inset 3px 3px 10px rgba(0,0,0,0.1),
+        inset -1px -1px 15px #fff;
+    
+        padding: 10px;
+    }
+
+    input:focus,textarea:focus {
+        background: #8CDFD6;
+        transition: 0.5s;
+    }
+    
+ 
+/*dark mode*/
+.cardSection.dark {
+    background-color: #151d2a;
+}
+.cardSection.dark h2{
+    color: #fff;
+}
+.cardSection.dark .CardTitle{
+    color: #27292a;
+}
+
+.dark .card{
+    box-shadow: 0 0 6px 4px #333;   
+}
+
+.dark .inputContainer{
+box-shadow: none;
+}

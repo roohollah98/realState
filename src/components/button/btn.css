@@ -1,0 +1,25 @@
+.backBtnContainer{
+    position: absolute;
+    top: 2.5rem;
+    left: 2rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    z-index: 10;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+
+}
+.backBtnContainer:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+}
+.backBtnContainer svg{
+    font-size: 1.2rem;
+    
+}
